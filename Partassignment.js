@@ -43,7 +43,7 @@ else {
     console.log("Employee is  not eligible for the examination");
 }
 */
-let browser="Internet explorar";
+/*let browser="Internet explorar";
 
 switch(browser){
     case "firefox": console.log("firefox");
@@ -57,4 +57,11 @@ switch(browser){
     default:console.log("non of the above");
     break
     
+}*/
+
+let storevalue = 5;
+for(let i=1;i<=10;i++)
+{
+let mul = i*storevalue;
+console.log("5 x"+" " + i + "=" +mul);
 }
